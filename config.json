@@ -1,0 +1,10 @@
+{
+  "config": 
+    {
+      "exe_path" : "D:/MAME-HORIZONTAL/mame.exe",
+      "rom_path" : "D:/MAME-HORIZONTAL/roms",
+      "snap_path": "D:/MAME-HORIZONTAL/snap/snap"
+
+    }
+  
+}
