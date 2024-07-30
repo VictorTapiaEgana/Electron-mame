@@ -9,10 +9,11 @@ function createWindow () {
 
   const mainWindow = new BrowserWindow({
 
-    width: 800,
-    height: 600,
+    // width: 800,
+    // height: 600,
+    fullscreen: true,
     webPreferences: {
-      preload: path.join(__dirname, '/functions/preload.js'),
+      preload: path.join(__dirname, '/functions/preload.js'),      
       contextIsolation: true,
       enableRemoteModule: false,
       nodeIntegration: false,

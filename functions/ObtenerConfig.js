@@ -8,7 +8,7 @@ const ObtenerConfig = async () => {
 
   try {
  
-    const data = await fs.readFile('config.json', 'utf8')
+    const data = await fs.readFile('./files/config.json', 'utf8')
     const { config } = JSON.parse(data)
     const Archivos = await LeerArchvos(config)
 
